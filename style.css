@@ -1,0 +1,51 @@
+body {
+  background-color: yellow;
+}
+
+table {
+  width: 80%;
+  margin: 40px auto;
+  background-color: grey;
+}
+
+table.list {
+  text-align: center;
+  width: 100%;
+  color: #45463d;
+}
+
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px 15px;
+}
+
+tr:nth-child(even) table.list thead > tr {
+  background-color: green;
+}
+
+input[type="text"], input[type="number"] {
+  width: 91%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid pink;
+  border-radius: 4px;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: pink;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: 1px solid pink;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #fbff08;
+}
+/*# sourceMappingURL=style.css.map */
